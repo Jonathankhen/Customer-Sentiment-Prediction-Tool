@@ -57,17 +57,18 @@ This project aims to analyze the sentiment of IMDb movie reviews using Natural L
             <strong>Data Visualization:</strong>
             <ul>
                 <li><strong>Review Length Distribution:</strong> Interactive histograms are created using Plotly to visualize the distribution of review lengths, showing how the length varies across different sentiments.</li>
+                <img src="https://github.com/user-attachments/assets/3d21c696-37e5-42ae-9054-7a9607374b67">
                 <li><strong>Box Plot of Review Lengths:</strong> Box plots illustrate the distribution of review lengths by sentiment category, highlighting differences between positive and negative reviews.</li>
+                <img src="https://github.com/user-attachments/assets/a26d6a21-e25c-4153-9429-0dcee4f643be">
                 <li><strong>Top Words Impact Scatter Plot:</strong> An interactive scatter plot visualizes the top 50 words influencing sentiment, with point size and color indicating the magnitude of their coefficients.</li>
-<img src="https://github.com/user-attachments/assets/824cd1e3-7d6a-4629-96f8-466671abab79">
-<img src="https://github.com/user-attachments/assets/dc987d5d-9a65-46df-a994-de5c61f8f9b8">
-<img src="https://github.com/user-attachments/assets/88bc9b30-95ac-48aa-8532-5ae4eb65be13">
+                <img src="https://github.com/user-attachments/assets/1738224d-f894-4b2e-93be-cbbd222ff5c4">
             </ul>
         </li>
         <li>
             <strong>Sentiment Prediction Function:</strong>
             <ul>
-                <li><strong>User Input Prediction:</strong> A function allows users to input their own movie reviews and receive sentiment predictions. The text is cleaned, vectorized, and classified using the trained logistic regression model, providing a binary sentiment output.</li>
+                <li><strong>User Input Prediction:</strong> A function allows users to input their own movie reviews and receive sentiment predictions. The text is cleaned, vectorized, and classified using the trained logistic regression model, providing a binary sentiment output.</li> 
+                <img src="https://github.com/user-attachments/assets/0e1d1af4-d5e1-4a50-b556-75e18eeeba25">
             </ul>
         </li>
     </ol>
@@ -87,7 +88,6 @@ cd Customer-Sentiment-Prediction-Tool</code></pre>
             <p>Input a review when prompted:</p>
             <pre><code>Enter a review to analyze its sentiment: That movie wasn't good
 The predicted sentiment of the review is: Negative</code></pre>
-<img src="https://github.com/user-attachments/assets/0e1d1af4-d5e1-4a50-b556-75e18eeeba25">
         </li>
     </ol>
     <h3>Conclusion:</h3>
